@@ -130,6 +130,10 @@
   width: 103px;
   height: 41px;
   padding: 10px 30px 10px 30px;
+  font-family: "Red-Hat-Text";
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #FFFFFF;
 }
 
 .btn {
@@ -138,10 +142,6 @@
   border-radius: 10px;
   -webkit-box-shadow: 0 2px 3px rgba(13, 96, 111, 0.16);
           box-shadow: 0 2px 3px rgba(13, 96, 111, 0.16);
-  font-family: "Red-Hat-Text";
-  font-size: 1rem;
-  line-height: 1.3rem;
-  color: #FFFFFF;
   cursor: pointer;
 }
 .btn:hover {
