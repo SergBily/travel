@@ -162,3 +162,216 @@
   -ms-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
 }
+
+.main {
+  position: relative;
+}
+
+.preview {
+  position: relative;
+  top: -90px;
+  padding-top: 90px;
+  width: 1440px;
+  height: 765px;
+  padding: 122px 0 0 7.5rem;
+  margin: 0 auto;
+  background: url(/travel/travel/assets/img/header-desktop.jpg) no-repeat;
+  background-size: cover;
+}
+
+.preview__container {
+  width: 55.75em;
+  height: auto;
+}
+
+.preview__title {
+  font-family: "Aleo-Bold";
+  font-size: 5rem;
+  line-height: 6rem;
+  color: #FFFFFF;
+}
+
+.preview__text {
+  margin: 33px auto 46px auto;
+  font-style: italic;
+  letter-spacing: 0.1px;
+}
+
+.text {
+  font-family: "Aleo";
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #FFFFFF;
+}
+
+.preview__search {
+  position: relative;
+  width: 100%;
+  height: 95px;
+  margin-bottom: 11px;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  outline: none;
+  padding-left: 41px;
+}
+.input::-webkit-input-placeholder {
+  font-family: "Aleo";
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #F2785C;
+  letter-spacing: -0.6px;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input::-moz-placeholder {
+  font-family: "Aleo";
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #F2785C;
+  letter-spacing: -0.6px;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input:-ms-input-placeholder {
+  font-family: "Aleo";
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #F2785C;
+  letter-spacing: -0.6px;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input::-ms-input-placeholder {
+  font-family: "Aleo";
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #F2785C;
+  letter-spacing: -0.6px;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input::placeholder {
+  font-family: "Aleo";
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #F2785C;
+  letter-spacing: -0.6px;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input:focus::-webkit-input-placeholder {
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input:focus::-moz-placeholder {
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input:focus:-ms-input-placeholder {
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input:focus::-ms-input-placeholder {
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.input:focus::placeholder {
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.search__btn {
+  width: 14.25rem;
+  height: 59px;
+  position: absolute;
+  left: 645px;
+  top: 18px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.8px;
+}
