@@ -41,21 +41,16 @@
 }
 
 .header {
-  width: 100%;
+  width: 1440px;
   height: 100%;
   position: relative;
+  margin: 0 auto;
+  padding: 25px 120px 24px 120px;
   background-color: rgba(242, 120, 92, 0.7);
   background-size: cover;
   -webkit-box-shadow: 0 4px 4px rgb(13, 96, 111);
           box-shadow: 0 4px 4px rgb(13, 96, 111);
   z-index: 1;
-}
-
-.header__wrapper {
-  max-width: 1440px;
-  height: 100%;
-  padding: 25px 120px 24px 120px;
-  margin: 0 auto;
 }
 
 .header__container {
