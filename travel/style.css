@@ -189,12 +189,14 @@
   font-size: 5rem;
   line-height: 6rem;
   color: #FFFFFF;
+  cursor: default;
 }
 
 .preview__text {
   margin: 33px auto 46px auto;
   font-style: italic;
   letter-spacing: 0.1px;
+  cursor: default;
 }
 
 .text {
@@ -474,6 +476,7 @@
   font-size: 1.25rem;
   line-height: 1.5rem;
   color: #0D606F;
+  cursor: default;
 }
 
 .frame__2 {
@@ -662,10 +665,12 @@
   font-size: 35px;
   line-height: 42px;
   color: #0D606F;
+  cursor: default;
 }
 
 .description__text {
   padding-top: 24px;
+  cursor: default;
 }
 
 .description__text,
@@ -677,7 +682,9 @@
 }
 
 .description__more {
+  width: 100px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .stories__btn {
