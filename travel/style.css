@@ -164,22 +164,18 @@
   -o-transition: all 0.1s ease-in-out;
 }
 
-.main {
-  position: relative;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 .preview {
   position: relative;
   top: -90px;
-  padding-top: 90px;
+  background: url(/travel/travel/assets/img/header-desktop.jpg) no-repeat;
+  background-size: cover;
+}
+
+.preview__wrapper {
   width: 1440px;
   height: 765px;
   padding: 122px 0 0 7.5rem;
   margin: 0 auto;
-  background: url(/travel/travel/assets/img/header-desktop.jpg) no-repeat;
-  background-size: cover;
 }
 
 .preview__container {
