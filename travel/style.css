@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Aleo-Bold";
-  src: url("/travel/travel/assets/fonts/Aleo-Bold.woff2") format("woff2"), url("/travel/travel/assets/fonts/Aleo-Bold.woff") format("woff"), url("/travel/travel/assets/fonts/Aleo-Bold.ttf") format("truetype");
+  src: url("/travel/travel/assets/fonts/Aleo-Bold.woff") format("woff"), url("/travel/travel/assets/fonts/Aleo-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
 }
 @font-face {
   font-family: "Aleo";
-  src: url("/travel/travel/assets/fonts/Aleo-Regular.woff2") format("woff2"), url("/travel/travel/assets/fonts/Aleo-Regular.woff") format("woff"), url("/travel/travel/assets/fonts/Aleo-Regular.ttf") format("truetype");
+  src: url("/travel/travel/assets/fonts/Aleo-Regular.woff") format("woff"), url("/travel/travel/assets/fonts/Aleo-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
 }
 @font-face {
   font-family: "Marga";
-  src: url("/travel/travel/assets/fonts/Magra-Bold.woff2") format("woff2"), url("/travel/travel/assets/fonts/Magra-Bold.woff") format("woff"), url("/travel/travel/assets/fonts/Magra-Bold.ttf") format("truetype");
+  src: url("/travel/travel/assets/fonts/Magra-Bold.woff") format("woff"), url("/travel/travel/assets/fonts/Magra-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
 }
 @font-face {
   font-family: "Red-Hat-Text";
-  src: url("/travel/travel/assets/fonts/RedHatText-Medium.woff2") format("woff2"), url("/travel/travel/assets/fonts/RedHatText-Medium.woff") format("woff"), url("/travel/travel/assets/fonts/RedHatText-Medium.ttf") format("truetype");
+  src: url("/travel/travel/assets/fonts/RedHatText-Medium.woff") format("woff"), url("/travel/travel/assets/fonts/RedHatText-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
