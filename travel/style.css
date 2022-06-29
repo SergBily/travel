@@ -374,9 +374,9 @@
   position: absolute;
   left: 645px;
   top: 18px;
+  font-family: "Red-Hat-Text";
   font-size: 1.5rem;
   line-height: 2rem;
-  letter-spacing: 0.8px;
 }
 
 .steps {
