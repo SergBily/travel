@@ -613,6 +613,10 @@
   color: #FFFFFF;
 }
 
+.btn__vector {
+  text-align: center;
+}
+
 .stories {
   padding-top: 80px;
 }
