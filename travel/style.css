@@ -478,3 +478,131 @@
 .frame__2 {
   margin-left: 4.3em;
 }
+
+.destinations {
+  width: 100%;
+  height: 100%;
+  padding-top: 87px;
+}
+
+.destinations__container {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.destinations__title {
+  padding-bottom: 46px;
+}
+
+.title {
+  cursor: default;
+}
+
+.destinations__country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.8em;
+}
+
+.country {
+  position: relative;
+}
+
+.country__img {
+  max-width: 800px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.country__text {
+  position: absolute;
+  cursor: default;
+  font-family: "Red-Hat-Text";
+  font-size: 2rem;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.country__text-right {
+  left: 1737px;
+  top: 718px;
+}
+
+.country__text-centre {
+  left: 877px;
+  top: 718px;
+}
+
+.country__text-left {
+  left: 15px;
+  top: 718px;
+}
+
+.destinations__scroll {
+  width: 80px;
+  height: 20px;
+  margin-top: 24px;
+}
+
+.scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.scroll__btn {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(242, 120, 92, 0.5);
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.scroll__btn:nth-child(2) {
+  background-color: #F2785C;
+}
+.scroll__btn:hover {
+  border: 2px solid #F2785C;
+}
+
+.destinations__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+  margin-top: 40px;
+  width: 228px;
+  height: 59px;
+  font-family: "Red-Hat-Text";
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #FFFFFF;
+}
