@@ -190,6 +190,7 @@
   line-height: 6rem;
   color: #FFFFFF;
   cursor: default;
+  margin: 0;
 }
 
 .preview__text {
