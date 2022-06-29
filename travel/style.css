@@ -587,7 +587,8 @@
   border: 2px solid #F2785C;
 }
 
-.destinations__btn {
+.destinations__btn,
+.stories__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -605,4 +606,79 @@
   font-size: 1.5rem;
   line-height: 2rem;
   color: #FFFFFF;
+}
+
+.stories {
+  padding-top: 80px;
+}
+
+.stories__wrapper {
+  background-image: url(/travel/travel/assets/img/footer-desktop.jpg);
+  background-size: cover;
+}
+
+.stories__titile {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.stories__container {
+  background: rgba(255, 255, 255, 0.7);
+  padding-bottom: 40px;
+}
+
+.stories__content {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px 125px 0 120px;
+}
+
+.story {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  padding-top: 30px;
+}
+
+.story__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -webkit-box-shadow: 0px 4px 4px #0D606F;
+          box-shadow: 0px 4px 4px #0D606F;
+}
+
+.description__title {
+  font-family: "Aleo";
+  font-size: 35px;
+  line-height: 42px;
+  color: #0D606F;
+}
+
+.description__text {
+  padding-top: 24px;
+}
+
+.description__text,
+.description__more {
+  font-family: "Aleo";
+  font-size: 20px;
+  line-height: 1.5rem;
+  color: #0D606F;
+}
+
+.description__more {
+  text-decoration: underline;
+}
+
+.stories__btn {
+  margin: 40px auto 0 auto;
 }
