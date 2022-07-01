@@ -247,7 +247,7 @@
   font-family: "Aleo";
   font-size: 1.5rem;
   line-height: 29px;
-  color: rgb(242, 120, 92);
+  color: #f2785c;
   letter-spacing: -0.6px;
   transform: scale(1);
   -webkit-transform: scale(1);
@@ -264,7 +264,7 @@
   font-family: "Aleo";
   font-size: 1.5rem;
   line-height: 29px;
-  color: rgb(242, 120, 92);
+  color: #f2785c;
   letter-spacing: -0.6px;
   transform: scale(1);
   -webkit-transform: scale(1);
@@ -281,7 +281,7 @@
   font-family: "Aleo";
   font-size: 1.5rem;
   line-height: 29px;
-  color: rgb(242, 120, 92);
+  color: #f2785c;
   letter-spacing: -0.6px;
   transform: scale(1);
   -webkit-transform: scale(1);
@@ -298,7 +298,7 @@
   font-family: "Aleo";
   font-size: 1.5rem;
   line-height: 29px;
-  color: rgb(242, 120, 92);
+  color: #f2785c;
   letter-spacing: -0.6px;
   transform: scale(1);
   -webkit-transform: scale(1);
@@ -315,7 +315,7 @@
   font-family: "Aleo";
   font-size: 1.5rem;
   line-height: 29px;
-  color: rgb(242, 120, 92);
+  color: #f2785c;
   letter-spacing: -0.6px;
   transform: scale(1);
   -webkit-transform: scale(1);
@@ -436,7 +436,7 @@
   font-family: "Red-Hat-Text";
   font-size: 2.5rem;
   line-height: 53px;
-  color: rgb(242, 120, 92);
+  color: #f2785c;
 }
 
 .steps__block {
@@ -474,7 +474,7 @@
 .frame__icon {
   width: 100px;
   height: 100px;
-  background-color: rgb(242, 120, 92);
+  background-color: #f2785c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,10 +608,10 @@
   -o-border-radius: 50%;
 }
 .scroll__btn:nth-child(2) {
-  background-color: rgb(242, 120, 92);
+  background-color: #f2785c;
 }
 .scroll__btn:hover {
-  border: 2px solid rgb(242, 120, 92);
+  border: 2px solid #f2785c;
 }
 
 .destinations__btn,
@@ -771,11 +771,27 @@
   list-style: none;
 }
 
-.link__vector:hover,
-.links__item:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+.link__vector {
+  fill: #FFFFFF;
+  stroke: #F8F8F8;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.link__vector:hover {
+  fill: #f2785c;
+  stroke: #f2785c;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
